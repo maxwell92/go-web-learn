@@ -19,6 +19,7 @@
     <input type="checkbox" name="interest" value="football">Football
     <input type="checkbox" name="interest" value="basketball">Basketball
     <input type="checkbox" name="interest" value="tennis">Tennis
+    <input type="hidden" name="token" value="{{.}}">
     <input type="submit" value="登陆">
 </form>
 </body>
