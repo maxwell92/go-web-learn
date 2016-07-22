@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/index.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>	
+	<nav> 易宝容器云</nav>
+	<div class="left">
+		<p><b class="fa  icon-cloud-upload"></b>应用管理</p>
+		<p><b class="fa  icon-hdd"></b>云盘管理</p>
+	</div>
+	<div class="wrap">
+		<ul>
+			<li class="li1"> <span> 应用名：</span> <input type="text" class="down" name="appname"></li>
+			<li class="li2"><span>组织：</span> <input type="text" class="down" division="namespace"></li>
+			<li class="li3"><span>数据中心：</span>
+				<b class="blocks">1</b>
+				<b class="blocks">2</b>
+				<b class="blocks">3</b>
+			</li>
+			<li><span>镜像：</span><input type="text"></li>
+			<li><span>副本数：</span></li>
+			<li class="li4"><span>CPU：</span>
+				<b class="blocks">1</b>
+				<b class="blocks">2</b>
+				<b class="blocks">3</b></li>
+			<li>
+				<span>配置文件：</span><input type="text" /><a href="#" class="btns">上传</a>
+			</li>
+			<li>
+				<span>挂载：</span> 
+				<input type="text" class="down"> ： 
+				<input type="text">
+			</li>
+	<div class="bigs">
+			<li class="li5"><input type="checkbox" id="bbb"><span><label for="bbb" class="radio" >健康检查</label></span>
+				<ol id="ols">
+					<li class="tabs">
+						<input type="radio" name="aaa">HTTP
+					</li>
+					<li class="backs">
+						<div class="box1">URL</div>
+						<div><input type="text" class="inp2" /></div>
+					</li>
+					<li class="backs">
+						<div class="box1">每隔</div>
+						<div><input type="text" class="inp1" />s</div>
+						
+					</li>
+					<li class="tabs">
+						<input type="radio" name="aaa">TCP
+					</li>
+					<li class="backs">
+						<div class="box1">Port</div>
+						<div><input type="text" class="inp2" /></div>
+					</li>
+					<li class="backs">
+						<div class="box1">每隔</div>
+						<div><input type="text" class="inp1" />s</div>
+						
+					</li>
+					<li class="tabs">
+						<input type="radio" name="aaa">Bath
+					</li>
+					<li class="backs">
+						<div class="box1">路径</div>
+						<div><input type="text" class="inp2" /><a href="#" class="btns">上传</a></div>
+					</li>
+					<li class="backs">
+						<div class="box1">每隔</div>
+						<div><input type="text" class="inp1" />s</div>
+					</li>
+					<li class="ups">
+						生效时间：<input type="text"> s
+					</li>
+				</ol>
+			</li>
+			<li class="li6"><input type="checkbox" id="ccc"><span><label for="ccc" class="radio" >可读性检查</label></span>
+				<ol id="ols1">
+					<li class="tabs">
+						<input type="radio" name="fff">HTTP
+					</li>
+					<li class="backs">
+						<div class="box1">URL</div>
+						<div><input type="text" class="inp2" /></div>
+					</li>
+					<li class="backs">
+						<div class="box1">每隔</div>
+						<div><input type="text" class="inp1" />s</div>
+						
+					</li>
+					<li class="ups">
+						生效时间：<input type="text"> s
+					</li>
+				</ol>
+			</li>
+			<li class="li7">
+				<input type="checkbox" id="ddd">
+				<span>
+					<label for="ddd" class="radio" >启动准备</label>
+				</span>
+				<ol id="ols2">
+					<li class="tabs">
+						<input type="radio" name="ggg">Bath
+					</li>
+					<li class="backs">
+						<div class="box1">路径</div>
+						<div><input type="text" class="inp2" /><a href="#" class="btns">上传</a></div>
+					</li>
+				</ol>
+			</li>
+			<li class="li8">
+				<input type="checkbox" id="eee">
+				<span>
+					<label for="eee" class="radio" >优雅停止</label>
+				</span>
+				<ol id="ols3">
+					<li class="tabs">
+						<input type="radio" name="hhh">Bath
+					</li>
+					<li class="backs">
+						<div class="box1">路径</div>
+						<div><input type="text" class="inp2" /><a href="#" class="btns">上传</a></div>
+					</li>
+				</ol>
+			</li>
+			<li>
+				<span>环境变量：</span>
+				<input type="text" class="down">：<input type="text" class="down">
+				<button>+</button>
+				<button>-</button>
+			</li>
+			<li>
+				<span>label：</span>
+				<input type="text" class="down">：<input type="text" class="down">
+				<button>+</button>
+				<button>-</button>
+			</li>
+			<li>
+				<span>CMD：</span>
+				<input type="text" class="down">
+			</li>
+			<li>
+				<span>Args</span>
+				<input type="text" class="down">
+			</li>
+	</div>
+
+		<li class="li9">
+			<img src="images/down.png" class="imga"> 高级选项 </li>
+
+
+		</ul>
+	<div class="act"><input type="submit" value="部署"></div>
+	<div class="act">取消</div>
+	</div>
+
+<script type="text/javascript" src="js/index.js"></script>
+	
+</body>
+</html>

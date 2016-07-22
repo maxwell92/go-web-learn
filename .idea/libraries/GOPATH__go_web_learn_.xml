@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;go-web-learn&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../src/godeptest" />
+      <root url="file://$PROJECT_DIR$/../src/github.com" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
